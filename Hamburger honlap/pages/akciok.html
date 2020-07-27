@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tuti Burger - Főoldal</title>
+    <title>Tuti Burger - Akciók</title>
     <link href="/Hamburger honlap/img/logo.png" rel="shortcut icon">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -17,27 +17,10 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="/css/style.css">
 </head>
-
-<div class="dropdown">
-    <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      Napi akciók időjárás szerint
-    </button>
-    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-      <button id="monday" class="dropdown-item" value="1" onclick="weatherWidget ()">Hétfő</button>
-      <button id="tuesday" class="dropdown-item" value="2" onclick="weatherWidget ()">Kedd</button>
-      <button id="wendesday" class="dropdown-item" value="3" onclick="weatherWidget ()">Szerda</button>
-      <button id="thursday" class="dropdown-item" value="4" onclick="weatherWidget ()">Csütörtök</button>
-      <button id="friday" class="dropdown-item" value="5" onclick="weatherWidget ()">Péntek</button>
-      <button id="saturday" class="dropdown-item" value="6" onclick="weatherWidget ()">Szombat</button>
-      <button id="sunday" class="dropdown-item" value="0" onclick="weatherWidget ()">Vasárnap</button>
-    </div>
-  </div>
-
-<nav class="navbar navbar-expand-lg navbar-light menu-bg-color">
-    <a class="navbar-brand" href="/index.html">
-        <img src="/img/logo.png" width="30" height="30" alt="Tuti Burger" loading="lazy">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="/Hamburger honlap/index.html">
+        <img src="/Hamburger honlap/img/logo.png" width="30" height="30" alt="Tuti Burger" loading="lazy">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,13 +30,14 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="/index.html">Főoldal <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="/Hamburger honlap/index.html">Főoldal <span
+                        class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/pages/nyitvatartas.html">Nyitvatartás</a>
+                <a class="nav-link" href="/Hamburger honlap/pages/nyitvatartas.html">Nyitvatartás</a>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="/pages/akciok.html" id="navbarDropdown" role="button" data-toggle="dropdown"
+                <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false">
                     Akciók
                 </a>
@@ -64,10 +48,10 @@
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/pages/etlap.html">Étlap</a>
+                <a class="nav-link" href="/Hamburger honlap/pages/etlap.html">Étlap</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/pages/rendeles.html">Rendelés</a>
+                <a class="nav-link" href="/Hamburger honlap/pages/rendeles.html">Rendelés</a>
             </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
@@ -77,12 +61,23 @@
     </div>
 </nav>
 
-
 <body>
-    <div class="container">
-        <h1>ez bizony a főoldal</h1>
+    <div class="container bg-light">
+        Duplahúsos hamburger chili szósszal és kólával most csak 1.330 Ft
+        <img src="/img/nagy.jpg" alt="duplahusos hambi" style="width: 100px; height: 100px;">
     </div>
+    <div class="container bg-light">
+        <div class="row col-12">
+            Duplasajtos hamburger extra uborkával és kólával most csak 1.330 Ft
+        </div>
 
+    </div>
+    <div class="container bg-light">
+        <div class="row">
+            Duplasajtos hamburger krumplival és kólával most csak 1.330 Ft
+        </div>
+
+    </div>
 </body>
 
 </html>
